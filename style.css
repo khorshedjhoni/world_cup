@@ -239,7 +239,7 @@ footer{
     flex-direction: column;}
 }
     
-}
+
 
 /* -----------------mobile-view----------- */
 @media screen and (min-width:320px) and (max-width:480px) {
@@ -262,8 +262,7 @@ footer{
    height: 100%;
    width: 50%;
 
-}
- .container-1{
+}.container-1{
     
     display: flex;
     justify-content: center;
@@ -277,13 +276,13 @@ footer{
     .blog-menu{
         background-color:white;
         display: flex;
-        flex-direction: column;
+        
         
     }
     .blog-menu .white-button{
         
         background-color:honeydew;
-        
+        padding-left: 20px;
     }
     .transfer{
     display: grid;
