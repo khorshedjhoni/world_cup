@@ -33,7 +33,7 @@ h1{
     font-weight: 700;
     font-size: 50px;
 }
-.header-info a{
+.header-info a {
     background-color: red;
     padding: 2%;
     border-radius: 2px;
@@ -57,12 +57,13 @@ p{
 
 }
 
-/* middle-part */
+/* middle-part -------------------------------------------*/
 .container-1{
-    /* height: 100vh; */
+   
     display: flex;
     justify-content: center;
     align-items: center;
+    
     
 }
 .blog{
@@ -81,7 +82,7 @@ p{
     padding: 3%;
     background-color: black;
     border-radius: 10px;
-    /* flex-grow: 1; */
+   
     
     
     
@@ -132,7 +133,20 @@ h4{
 .fa-rocketchat{
     padding-left: 10px;
 }
-/*---- footer-section */
+/* view-button---------------------------- */
+.view-button{
+    text-align: center;
+    padding: 5%;
+    
+}
+.view-button a{
+    
+    text-align: center;
+    text-decoration: none;
+    padding: 7px;
+    background-color: red;
+}
+/*---- footer-section---------------------------- */
 footer{
     background-color: black;
     text-align: center;
@@ -146,7 +160,7 @@ footer{
 }
 
 
-/*------------------------ .second_web */
+/*------------------------ .second_web----------------------- */
 .container-2{
      display: flex;
     justify-content: center;
@@ -222,11 +236,11 @@ footer{
     
     }
     .header-info{
-        /* height: 100%; */
+        
         width: 100%;
     }
     .header-banner{
-    /* height: 100%; */
+    
     width: 100%;
 }
 .header-banner img {
@@ -266,5 +280,16 @@ footer{
         display: flex;
         flex-direction: column;
     }
-    
+    .view-button{
+        display: none;
+    }
 }
+
+/* ------------------------laptop-view ------------------------*/
+@media screen and (min-width:769px) {
+
+    .view-button{
+        display: none;
+    }
+}
+
