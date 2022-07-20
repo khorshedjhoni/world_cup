@@ -224,6 +224,14 @@ footer{
    
     gap: 5px;  
 }
+    /* second-web */
+    .match{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);}
+    .match-blog{
+    display: flex;
+    flex-direction: column;}
+}
     
 }
 
@@ -284,6 +292,13 @@ footer{
     .view-button{
         display: none;
     }
+    /* second-web */
+    .match{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);}
+    .match-blog{
+    display: flex;
+    flex-direction: column;}
 }
 
 /* ------------------------laptop-view ------------------------*/
